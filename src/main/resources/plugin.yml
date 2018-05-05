@@ -1,0 +1,7 @@
+name: Splurge
+version: ${project.version}
+main: me.rayzr522.splurge.Splurge
+softdepend: [Vault]
+authors: [Rayzr522]
+description: ${project.description}
+website: ${project.url}
