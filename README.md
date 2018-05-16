@@ -23,4 +23,4 @@ A compiled JAR file will now be available in the `target` directory of the Splur
 
 ## Join Me
 
-[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://discord.io/rayzrdevofficial)
+[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://discord.gg/HRfGECW)
