@@ -1,9 +1,15 @@
 package me.rayzr522.splurge;
 
+import me.rayzr522.splurge.arena.Arena;
 import me.rayzr522.splurge.arena.ArenaManager;
 import me.rayzr522.splurge.config.ConfigManager;
 import me.rayzr522.splurge.config.Language;
+import me.rayzr522.splurge.struct.Region;
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.concurrent.TimeUnit;
 
 public final class Splurge extends JavaPlugin {
     private static Splurge instance;
@@ -15,9 +21,16 @@ public final class Splurge extends JavaPlugin {
         return instance;
     }
 
+    public static void later(Runnable runnable, long delay, TimeUnit unit) {
+        Bukkit.getScheduler().runTaskLater(instance, runnable, unit.toMillis(delay) / 50);
+    }
+
     @Override
     public void onEnable() {
         instance = this;
+
+        ConfigurationSerialization.registerClass(Arena.class);
+        ConfigurationSerialization.registerClass(Region.class);
 
         configManager = new ConfigManager(this);
         language = new Language();
