@@ -11,7 +11,7 @@
 
     <name>Splurge</name>
     <description>A fun PvP minigame for Minecraft!</description>
-    <url>http://rayzr.tech/splurge</url>
+    <url>https://rayzr.dev</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
