@@ -9,7 +9,7 @@ Splurge is intended to be a fresh minigame with enjoyable gameplay elements, mea
 A version has yet to be released. In order to obtain a JAR file for yourself, you will need...
 
 2. Git
-2. Maven
+3. Maven
 
 Now run the following commands in Command Prompt / Git Bash / Terminal:
 
@@ -20,7 +20,3 @@ mvn
 ```
 
 A compiled JAR file will now be available in the `target` directory of the Splurge project folder.
-
-## Join Me
-
-[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://discord.io/rayzrdevofficial)
